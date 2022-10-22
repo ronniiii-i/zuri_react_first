@@ -1,4 +1,5 @@
 import './App.css';
+import './prestyles.css';
 import Profile from './components/Profile'
 import Links from './components/Links'
 import Socials from './components/Socials'
