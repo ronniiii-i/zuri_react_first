@@ -63,3 +63,14 @@ footer *{
 footer img{
   max-width: 150px;
 }
+@media screen and (max-width: 550px){
+  footer, .socials{
+    display: none !important;
+  }
+  .profile #twitter{
+    font-size: 18px;
+  }
+  .link a{
+    font-size: 14px;
+  }
+}
