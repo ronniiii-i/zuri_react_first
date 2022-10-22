@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Link = () => {
+const Link = ({name, link, id}) => {
   return (
-    <div>Link</div>
+    <div>
+        <a id={id} href={link}>{name}</a>
+    </div>
   )
 }
 
