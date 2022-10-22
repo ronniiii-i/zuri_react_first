@@ -4,10 +4,10 @@ import { FaGithub } from "react-icons/fa";
 
 function Socials() {
   return (
-    <div>
+    <section className='socials'>
         <FaSlack />
         <FaGithub />
-    </div>
+    </section>
   )
 }
 
