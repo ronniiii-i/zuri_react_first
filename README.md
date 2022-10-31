@@ -1,5 +1,4 @@
-# My LinkTree
-## Zuri Internship Task 1
+# My LinkTree | Zuri Internship Task 1
 
 ## Site address
 [Roni's Linktree](https://roni-linktree.vercel.app)
