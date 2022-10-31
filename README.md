@@ -21,3 +21,6 @@ You may also see any lint errors in the console.
 
 ## Author
 
+👤 **Princess Roni Egbu**
+
+* Twitter: [@ronniiii_i](https://twitter.com/ronniiii_i)
