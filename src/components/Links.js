@@ -6,6 +6,7 @@ function Links() {
     const link = data.map(item => {
       return (
         <Link
+          key={`${Math.random() * 10380203040390}`}
           id={item.id}
           name={item.name}
           link={item.link}
