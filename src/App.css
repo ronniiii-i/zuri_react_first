@@ -17,10 +17,30 @@ main, footer{
 a{
   text-decoration: none;
 }
-.profile img{
+.profile img, .overlay, span div{
   border-radius: 10000px;
   width: 100%;
   max-width: 80px;
+}
+.profile span{
+  position: relative;
+  height: 80px;
+}
+.profile span div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%,-50%);
+  display: none;
+}
+.profile span div img{
+  max-width: 20px;
+}
+.profile .overlay div{
+  display: flex;
+  background: rgb(0,0,0,.5);
 }
 .profile #twitter{
   font-weight: 700;
