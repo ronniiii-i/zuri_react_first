@@ -6,7 +6,7 @@ function Profile () {
   return (
     <section className='profile full-width flex column align-center'>
         <img src={pic} alt="profile pic" />
-        <p id='twitter'>Roni</p>
+        <p id='twitter'>@ronniiii_i</p>
         <p id="slack">Roni</p>
     </section>
   )
