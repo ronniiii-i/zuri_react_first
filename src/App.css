@@ -104,6 +104,9 @@ footer img{
   max-width: 150px;
 }
 @media screen and (max-width: 550px){
+  .socials.flex.row{
+    flex-direction: row;
+  }
   footer{
     flex-direction: column;
   }
