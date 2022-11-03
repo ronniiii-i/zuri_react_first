@@ -45,6 +45,14 @@ const links = [
       subtext:
         "get UI/UX books for writing copy that's engaging and conversational—and aligned with the goals of both the user andthe business",
     },
+    {
+      name: "Contact Me",
+      link: "/contact",
+      id: "contact",
+      title: "",
+      subtext:
+        "Link to contact form",
+    },
   ];
   
   

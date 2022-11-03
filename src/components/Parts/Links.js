@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '../data/links'
+import data from '../../data/links'
 import Link from "./Link";
 
 function Links() {

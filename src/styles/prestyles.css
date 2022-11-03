@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
+:root{
+    /*typography*/
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* size */
+    font-size: 62.5%;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+input:active, input:focus, select:active, select:focus{
+    outline: none;
+}
 .full-width{
     width: 100%;
 }
