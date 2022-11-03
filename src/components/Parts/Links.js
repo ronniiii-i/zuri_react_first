@@ -13,7 +13,7 @@ function Links() {
           title={
             <>
             <h6 style={{fontSize: '14px', textAlign: 'center'}}>{item.title}</h6>
-            {item.subtext}
+            <p style={{fontSize: '12px'}}>{item.subtext}</p>
           </>
           }
         />
