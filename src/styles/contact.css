@@ -1,0 +1,75 @@
+form{
+    width: 100%;
+    max-width: 1000px;
+}
+.header{
+    padding-block: 3rem;
+}
+.header h2{
+    font-size: 36px;
+}
+.header p{
+    font-size: 20px;
+}
+.checkbox{
+    gap: 10px;
+}
+.checkbox p{
+    font-size: 16px;
+}
+
+.input-block{
+    width: 48%;
+    padding-block: 1rem;
+}
+
+.input-block label{
+    font-size: 14px;
+    line-height: 20px;
+}
+.input-block input,
+.input-block textarea{
+    /* width: 100%; */
+    border-radius: 0;
+    border: 1px solid grey;
+    padding: 1rem 1rem;
+    margin-block: .5rem;
+    background-color: transparent;
+    font-size: 16px;
+	width: 100%;
+}
+.input-block textarea{
+	resize: none;
+	height: 200px;
+}
+.button, .message, .email{
+    width: 100%;
+}
+button{
+    margin-block: 2rem;
+    background-color: #1570EF;
+    padding: 1rem 2rem;
+    border-radius: 0;
+    border: 2px solid #1570EF;
+    color: white;
+    font-size: 1.6rem;
+    transition: all .3s;
+    width: 100%;
+}
+button:hover{
+    background-color: #145dc4;
+    border: 2px solid #145dc4;
+}
+
+
+@media screen and (max-width: 550px){
+    .flex.row{
+        flex-direction: column;
+    }
+    .checkbox.row{
+        flex-direction: row;
+    }
+    .input-block{
+        width: 100%;
+    }
+}

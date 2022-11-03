@@ -3,7 +3,7 @@ import Textarea from './Parts/Textarea'
 
 function Contact() {
     return (
-        <section>
+        <section className="flex align-center justify-center full-width">
             <form>
                 <div className="header">
                     <h2>Contact Me</h2>
@@ -49,9 +49,9 @@ function Contact() {
                         />
                     </div>
                 </div>
-                <div className="row flex justify-center align-center full-width">
+                <div className="row flex justify-center align-center full-width checkbox">
                     <input type="checkbox" id="agree" />
-                    <p>You agree to providing your data to Roni who may contact you</p>
+                    <p className="full-width">You agree to providing your data to Roni who may contact you</p>
                 </div>
                 <div className="row flex justify-between align-center full-width">
                     <div className="input-block button">
