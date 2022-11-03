@@ -1,17 +1,26 @@
 import './App.css';
-import './prestyles.css';
-import Profile from './components/Profile'
-import Links from './components/Links'
-import Socials from './components/Socials'
+import './styles/prestyles.css';
+import './styles/contact.css';
+import Main from './components/Main'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
     <>
       <main>
-        <Profile />
-        <Links />
-        <Socials />
+        <Router>
+          <Routes>
+            <Route exact path="/" element={<Main />} />
+            <Route exact path="/contact" element={<Contact />} />
+          </Routes>
+        </Router>
       </main>
       <Footer />
     </>
