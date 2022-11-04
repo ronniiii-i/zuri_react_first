@@ -45,7 +45,6 @@ function Profile() {
             disableFocusListener
             disableHoverListener
             disableTouchListener
-            arrow
             placement="bottom-start"
             title={
               <a style={{ fontSize: '14px', color: 'white' }}>Share Profile</a>
